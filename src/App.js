@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const conditional = (number) => {
+    if (number > 4) {
+      return <p>its greaterrrrr</p>
+    } else {
+      return <p>its not so greattttt</p>
+    }
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +23,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+         
         </a>
+        {conditional(4)}
       </header>
     </div>
   );
