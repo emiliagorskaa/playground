@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const theNumber = 7;
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+         {2+3 > 4 ?
+          <p> heyyyyy it is greater </p> :
+          <p> awww its smaller</p>
+        }
       </header>
     </div>
   );
